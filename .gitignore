@@ -1,0 +1,7 @@
+*.dta
+*.log
+*.smcl
+*.stswp
+*.rtf
+output_files/
+data/
