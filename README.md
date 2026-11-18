@@ -27,7 +27,9 @@ The variable-construction step was originally run interactively and not saved. `
 
 - **DISCERN** (Arora, Belenzon & Sheer 2020), NBER/Duke: firm-level patent, publication and citation panel, with its own build code.
 - **Compustat North America** via WRDS. This is licensed and cannot be redistributed.
-- **GDP deflator** (BEA/FRED) → `data/GDPDef.dta`
+- **GDP deflator** (BEA/FRED) → `data/DISCERN_MARCH_2020/data/GDPDef.dta`
+
+See [`data/README.md`](data/README.md) for exactly where each file goes.
 
 ## References
 

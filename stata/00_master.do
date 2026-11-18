@@ -6,12 +6,13 @@
 * Hall, Jaffe & Trajtenberg (2005, RAND J. Econ.) on the DISCERN database
 * (Arora, Belenzon & Sheer 2020) instead of the NBER patent file.
 *
-* Set ROOT to the folder that holds the DISCERN_MARCH_2020 distribution.
+* Set REPO below. Put the DISCERN_MARCH_2020 folder in data/ (see data/README.md).
 *******************************************************************************
 clear all
 set more off
-global ROOT "C:/path/to/DISCERN_MARCH_2020"
-global CODE "C:/path/to/this/repo/stata"
+global REPO "C:/path/to/market-value-and-patent-citations"   // <- edit this line only
+global ROOT "$REPO/data/DISCERN_MARCH_2020"
+global CODE "$REPO/stata"
 cd "$ROOT"
 
 * Step 0 -- DISCERN's own build (authors' code, shipped with the data; not in
