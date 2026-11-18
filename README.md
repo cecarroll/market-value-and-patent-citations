@@ -1,6 +1,6 @@
 # Market Value and Patent Citations: A Replication on DISCERN
 
-Stata code for **Carroll, C. & Snow, N. (2024). *Market Value and Patent Citations Revisited and Replicated.*** Draft presented at SOBIE 2024 (Ball State University, Institute for the Study of Political Economy).
+Stata code for **Carroll, C. & Snow, N. (2024). *Market Value and Patent Citations Revisited and Replicated.*** Draft prepared for SOBIE 2024 (Ball State University, Institute for the Study of Political Economy).
 
 **What it does.** It re-estimates the Tobin's Q regressions of Hall, Jaffe & Trajtenberg (2005, *RAND Journal of Economics*), which ask whether markets value a firm's R&D, patents, and patent citations. The original used the NBER patent file (1976–2006). This replication uses the **DISCERN** database (Arora, Belenzon & Sheer 2020), which covers 1980–2015, tracks ownership and name changes, and is merged with Compustat financials: about 58,000 firm-years, built from roughly 25 million underlying patent and citation records.
 
